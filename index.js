@@ -18,7 +18,7 @@ ScriptManager.shared.addResolver(async scriptId => {
 
   return {
     url: Script.getRemoteURL(
-      `http://somewhere-on-the-internet.com/${scriptId}`,
+      `http://localhost:8888/odf/${scriptId}`,
     ),
   };
 });
